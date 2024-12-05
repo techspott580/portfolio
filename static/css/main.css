@@ -1,0 +1,125 @@
+/* General Body Styling */
+body {
+    background-color: #EFEFEF; /* Light gray for a clean look */
+    font-family: 'Arial', sans-serif; /* Modern and clean font */
+    color: #333; /* Dark gray for text for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Profile Wrapper Styling */
+#profile-wrapper {
+    text-align: center;
+    background-color: #FFFFFF; /* White background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    border-radius: 10px; /* Rounded edges for modern look */
+    padding: 20px;
+}
+
+/* Profile Picture Styling */
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+    border: 3px solid #007BFF; /* Highlight border with primary color */
+}
+
+/* Unordered List Styling */
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+/* Social Links Styling */
+.social-links ul {
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center; /* Aligns icons in the center */
+    gap: 15px;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+    background-color: #007BFF; /* Blue for consistency with Bootstrap */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF; /* White for icon color */
+    font-size: 18px; /* Icon size */
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s; /* Smooth hover effect */
+}
+
+.social:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Container Styling */
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FFFFFF; /* White for content sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px; /* Rounded edges */
+}
+
+/* Card Styling */
+.card {
+    background-color: #FAFAFA; /* Light background for cards */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for cards */
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 20px;
+    color: #555; /* Muted text color */
+    line-height: 1.6;
+}
+
+/* Headings */
+h4, h5 {
+    font-weight: bold;
+    color: #007BFF; /* Bootstrap primary color for consistency */
+}
+
+/* Section-specific Enhancements */
+#profile-wrapper h4 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #007BFF;
+}
+
+#profile-wrapper p {
+    color: #555; /* Softer gray for less emphasis */
+}
+
+/* Utility Styling */
+.text-center {
+    text-align: center;
+}
+
+/* Adjust List Margins */
+.social-links li {
+    margin: 0;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 10px;
+        padding: 15px;
+    }
+
+    #profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+}

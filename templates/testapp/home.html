@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Correct static file usage -->
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{%static 'image/master.jpg'%}" alt="master_mayur">
+                    <hr>
+                    <h4>HI I'm mayur</h4>
+                    <p>I love coding and doing reasearch and collaborating</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>My First Job as a Developer</h4>
+                    <hr>
+                    <p>Starting my journey as a developer was both exciting and challenging. I still remember the day I landed my first role, stepping into a world where my coding skills were about to be tested in real-world scenarios. The company was a medium-sized tech firm focused on creating innovative web applications. My primary responsibilities revolved around front-end development, ensuring websites were not only visually appealing but also user-friendly. It was a thrilling opportunity to apply what I had learned and to grow in a professional environment.</p>
+                    <p>At the beginning, there was a lot to take in. Adjusting to a fast-paced work culture, collaborating with a team of experienced developers, and meeting project deadlines pushed me out of my comfort zone. However, these challenges fueled my motivation. My first project involved developing a responsive user interface for an e-commerce website. Debugging errors and refining the design taught me the importance of attention to detail. With guidance from my mentors, I quickly adapted to the team’s workflow and became confident in using tools like Git and frameworks like Django.</p>
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'static/image/fecebook.png'%}" alt="fecebook" ></li>
+                        <li><img class="social" src="{% static 'static/master.jpg'%}" alt="fecebook" ></li>
+                        <li><img class="social" src="{% static 'static/fecebook.png'%}" alt="fecebook" ></li>
+                        <li><img class="social" src="{% static 'static/fecebook.png'%}" alt="fecebook"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Experience as a Developer</h5>
+                    <hr>
+                    <p>I am full stack developer at FOI tech-company</p>
+                    <p>During my time there, I worked on developing responsive web applications and optimizing back-end systems. My responsibilities included creating user-friendly interfaces, debugging code, and collaborating with cross-functional teams to meet project deadlines. I also worked extensively with frameworks like Django and tools like Git to streamline development processes. This role allowed me to refine my technical skills and deepen my understanding of software development best practices.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Programming Languages I Know</h5>
+                    <hr>
+                    <p> frontend development</p>
+                    <p>I am proficient in HTML, CSS, and JavaScript, enabling me to create responsive and interactive user interfaces</p>
+                    <p>backend development</p>
+                    <p>I work with Python (Django/Flask), Node.js, and SQL, which help me build robust server-side applications and manage databases efficiently. This combination of skills allows</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>What I’ve Learned</h5>
+                    <hr>
+                    <p>I've gained proficiency in HTML, CSS, and JavaScript for frontend development, and Python (Django/Flask) for backend development. I’ve learned to debug efficiently, use Git for version control, and manage SQL databases. These skills have helped me become a well-rounded developer, focused on writing clean, maintainable code and solving complex problems.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Short-Term Goals</h5>
+                    <hr>
+                    <p><b>Enhance Frontend Skills:</b> Improve my knowledge of modern frontend frameworks like React or Vue.js to build dynamic, high-performance web applications.</p>
+                    <p><b>Backend Mastery: </b>Deepen my understanding of Python and Django, and explore new backend technologies to build scalable applications.</p>
+                    <p><b>Contribute to Open Source:</b> Start contributing to open-source projects to gain real-world experience and connect with the developer community.</p>
+                    <p><b>Improve Problem-Solving: </b>Work on algorithms and data structures to strengthen my problem-solving skills for technical interviews and real-world applications.</p>
+                    <p><b>Build Personal Projects:</b> Complete at least two personal projects to showcase my skills and build a solid portfolio.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
